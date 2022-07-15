@@ -1,0 +1,453 @@
+<body>
+  <!--------------------Home-------------------->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="image-container">
+          <a class="navbar-brand" href="#">
+            <img
+              class="book"
+              src="https://zeevector.com/wp-content/uploads/LOGO/HDFC-Bank-Logo-PNG.png"
+              style="width: 225px; margin-top: 10px"
+            />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars-filter"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutservice">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#investors">Investors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact-Us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <p
+        id="marque"
+        style="
+          color: lightblue;
+          background-image: linear-gradient(to right, #c24bd4, #5f1782);
+        "
+      >
+        <marquee width="100%" loop="1"
+          >we understand your world | we understand your world | we understand
+          your world | we understand your world | we understand your world | we
+          understand your world | we understand your world | we understand your
+          world |</marquee
+        >
+      </p>
+    </div>
+  </section>
+
+  <!---------Home Section----------->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="promo-title">Go digital with HDFC-BANK</p>
+          <p class="promo-question">Reason to choose digital net banking?</p>
+          <p style="text-align: justify">
+            Digital banking is the new best thing that could have happened to
+            mankind. In fact, not only has it provided a means of convenience
+            for today’s banking times, it has also helped individuals to go
+            paperless. Through Digital Banking, individuals can now easily make
+            transactions, check their account balance or even make transfers
+            just with a single click of a button on their smartphone, desk top
+            or any other digital device. No more requesting or looking over
+            paper statements or withdrawal slips, any longer.
+          </p>
+          <a href="https://www.youtube.com/watch?v=MLkmRBrSFu8" target="_blank">
+            <img
+              src="https://www.freepnglogos.com/uploads/play-button-png/index-media-cover-art-play-button-overlay-5.png"
+              class="play-btn"
+            />
+            watch out our invester's story
+          </a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            src="https://www.pinclipart.com/picdir/big/553-5533138_business-process-management-professional-services-online-banking-design.png"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <img
+      src="https://www.pinclipart.com/picdir/big/343-3430008_1860-x-484-3-white-wave-png-clipart.png"
+      class="bottom-img"
+    />
+  </section>
+
+  <!-------------------Login-Section----------------------------->
+  <section id="login">
+    <div>
+      <p class="abouthead1">Login for Net-Banking</p>
+      <div>
+        <div class="logindiv"></div>
+        <br />
+        <main class="d-flex justify-content-center">
+          <div class="logindiv">
+            <form>
+              <table>
+                <tbody class="tbody">
+                  <td>
+                    Username :
+                    <input
+                      type="text"
+                      [formControl]="username"
+                      class="form-control"
+                    />
+                  </td>
+                  <td>
+                    Password :
+                    <input
+                      type="password"
+                      [formControl]="password"
+                      class="form-control"
+                    />
+                  </td>
+                </tbody>
+              </table>
+              <br />
+              <div class="btn">
+                <button
+                  type="button"
+                  class="btn btn primary"
+                  value="login"
+                  (click)="handleLogin()"
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <router-outlet></router-outlet>
+  </section>
+
+  <!--------------------about-us Section--------------------------->
+  <section id="aboutservice">
+    <div class="container">
+      <p class="abouthead">About Us:</p>
+      <div class="row">
+        <div class="col-md-4 about">
+          <img
+            src="https://www.seekpng.com/png/full/249-2496115_digital-marketing-digital-marketing-vector-png.png"
+            class="about-img1"
+          />
+          <h3 class="h3tag">Online Banking Growth</h3>
+          <p class="info">
+            Digital banking is the new best thing that could have happened to
+            mankind. In fact, not only has it provided a means of convenience
+            for today’s banking times, it has also helped individuals to go
+            paperless. Through Digital Banking, individuals can now easily make
+            transactions, check their account balance or even make transfers
+            just with a single click of a button on their smartphone, desk top
+            or any other digital device. No more requesting or looking over
+            paper statements or withdrawal slips, any longer.
+          </p>
+        </div>
+        <div class="col-md-4 about">
+          <img
+            src="https://uploads-ssl.webflow.com/5d58e3031e139811311ef0d6/6110d8049a451546811270e6_bR_yaCZFBpep1t5dzlfreHj2q1dLZ6NLiFozbxsAbRPF-f78w1Rn618GlqjkUDuPmJfitbNq4UfyraG0ITjGsmVnuUrRpfZ8EG9b5mTIu_lycqnjwbXe20rml-1CHeNuNYsuZtUd.png"
+            class="about-img"
+          />
+          <h3 class="h3tag">Perks of Online Banking</h3>
+          <p class="info">
+            You can avail the banking services round the clock throughout the
+            year. Most of the services offered are not time-restricted; you can
+            check your account balance at any time and transfer funds without
+            having to wait for the bank to open. You need not leave your chores
+            behind and go stand in a queue at the bank branch. You can complete
+            your transactions from wherever you are. Pay utility bills,
+            recurring deposit account instalments, and others using online
+            banking.
+          </p>
+        </div>
+        <div class="col-md-4 about">
+          <img
+            src="https://www.seekpng.com/png/full/249-2496115_digital-marketing-digital-marketing-vector-png.png"
+            class="about-img1"
+          />
+          <h3 class="h3tag">Off-line or online banking?</h3>
+          <p class="info">
+            Online banking is exactly as it sounds — banking online. When you
+            access your bank account online and conduct financial transactions,
+            you are participating in online banking as a consumer. Whether
+            that’s with a brick-and-mortar bank’s online portal or with an
+            online-only bank’s website, the process is pretty much the same. The
+            2 main forms of online banking include: <br />
+            Online-only banks or challenger banks that offer conventional
+            banking products and financial services, but in an online-only
+            format. Traditional banks that offer online banking services via an
+            app or online portal.
+          </p>
+        </div>
+        <br />
+
+        <h1 class="hdfc">HDFC BANK</h1>
+        <hr class="horizontal" />
+        <br />
+        <div class="col-md-6">
+          <ul>
+            <p class="info1">
+              <i>A Prestige Banking System,</i> offers a wide variety of loans
+              and services for their customers which has a requirement of having
+              an online net banking, where customers can see their account
+              activities online instead of visiting the bank branch, do online
+              transactions instead of using cheque’s to save the customers time.
+              Moreover customers would come to know about the new changes and
+              offers the bank make that could be the rate of interest and
+              charges apply for receiving message or having debit card and
+              credit card. The details of the customers and their accounts has
+              to be maintained in the database and access it through the UI.
+              <br />
+              The Application will have UI that would be developed using some UI
+              Technologies, the team has to create a home page so that as soon
+              as the customer accesses the application the home page must be
+              displayed through that home page he can visit other pages that
+              could be Investors page, contact us page and etc. The application
+              should allow customer to access various information’s like what
+              all the transaction’s he has done with the date. The customer
+              could able to change his log in password and transaction password,
+              If he wishes to change the password the application should allow
+              him to change passwords which are not used previously i.e., older
+              passwords must not be accepted by the application.
+            </p>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="https://www.pngall.com/wp-content/uploads/1/Bank-Download-PNG.png"
+            class="bank-img"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------Investors-section------------------->
+  <section id="investors">
+    <div class="container">
+      <p class="abouthead text-center">Our Leading Investors</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 invest">
+        <img
+          src="https://logos-world.net/wp-content/uploads/2021/02/JP-Morgan-Chase-Logo.png"
+          class="invest-img1"
+        />
+        <h3 class="h3tag">JP-Morgan Chase & Co.</h3>
+        <p class="info2">
+          Our presence in India began in 1922, when a heritage firm took an
+          ownership interest in a merchant bank in Calcutta. Today, we provide
+          clients in India a comprehensive range of corporate and investment
+          banking services. Our global service centers in Mumbai, Bengaluru and
+          Hyderabad support operations globally. We have operated in Asia
+          Pacific since 1872, and today are present across 17 markets in the
+          region. Clients rely on our global strength, local expertise and
+          leadership across our lines of business. In Asia Pacific, we are
+          committed to helping promote economic growth and economic inclusion
+          through our key philanthropic initiatives in the areas of workforce
+          readiness, small business development and financial capability. Our
+          investments aim to increase the number of quality jobs created for the
+          underserved individuals and communities, helping small businesses
+          become more sustainable, as well as assisting marginalized people in
+          gaining access to affordable financial products so that they can
+          become more financially secure. This shared commitment to the
+          community drives our Foundation’s giving and employee engagement and
+          volunteering activities across the region.
+        </p>
+      </div>
+      <div class="col-md-4 invest">
+        <img
+          src="https://logos-world.net/wp-content/uploads/2021/02/Morgan-Stanley-Logo-2001-2006.png"
+          class="invest-img1"
+        />
+        <h3 class="h3tag">MORGAN STANLEY</h3>
+        <p class="info2">
+          Morgan Stanley is an American multinational investment bank and
+          financial services company headquartered at 1585 Broadway in Midtown
+          Manhattan, New York City. With offices in more than 42 countries and
+          more than 60,000 employees, the firm's clients include corporations,
+          governments, institutions, and individuals. Morgan Stanley ranked No.
+          67 in the 2018 Fortune 500 list of the largest United States
+          corporations by total revenue. The original Morgan Stanley, formed by
+          J.P. Morgan & Co. partners Henry Sturgis Morgan (grandson of J.P.
+          Morgan), Harold Stanley, and others, came into existence on September
+          16, 1935, in response to the Glass–Steagall Act that required the
+          splitting of commercial and investment banking businesses. In its
+          first year, the company operated with a 24% market share (US$1.1
+          billion) in public offerings and private placements.
+        </p>
+      </div>
+      <div class="col-md-4 invest">
+        <img
+          src="https://media.amgfunds.com/wp-content/uploads/2022/01/25151338/harding-loevner-logo.png"
+          class="invest-img12"
+        />
+        <h3 class="h3tag">HARDING-LOEVNER</h3>
+        <p class="info2hard">
+          At Harding Loevner, we collaborate to foster opposing viewpoints, not
+          to achieve consensus. Individuals, not committees, make decisions and
+          are solely accountable for the results. Undistracted by high-frequency
+          information that is often noise, we focus on a few fundamental signals
+          that show companies’ progress in creating value. Equity-based
+          compensation aligns our goals and time horizon with those of our
+          clients. Success can only be replicated through a repeatable process.
+          Our structured investment process mitigates the unconscious biases
+          that plague human decision-making. Requiring views to be written and
+          broadly shared lets each of us see what others are thinking and puts
+          them on the record. This transparency facilitates objective appraisal
+          of contributions and continuous self-improvement, at the level of both
+          the individual and the organization.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!------------Contact-us section--------------------->
+
+  <section id="Contact-Us">
+    <div class="container">
+      <p class="abouthead text-center">Contact-Us</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 invest">
+        <img
+          src="https://rapidpark.in/assets/img/clients/delhi.png"
+          class="contact-img1"
+        />
+        <h3 class="h3tag1">Delhi</h3>
+        <p class="info2">
+          Branch Connaught Place
+          <br />
+          Address No M 36, Outer Circle Connaught Place New Delhi - 110001
+          <br />
+          Landmark Opposite Super Bazar
+          <br />
+          IFSC Code HDFC0001220
+          <br />
+          Phone No. +912268461208
+          <br />
+          Hours Closed for the day 2nd and 4th Saturday - Holiday
+        </p>
+      </div>
+      <div class="col-md-4 invest">
+        <img
+          src="https://haecker-india.com/wp-content/uploads/2020/08/Mumbai_Icon-1.png"
+          class="contact-img2"
+        />
+        <h3 class="h3tag1M">Mumbai</h3>
+        <p class="info2">
+          Branch Connaught Place
+          <br />
+          Address No M 36, Outer Circle Connaught Place New Delhi - 110001
+          <br />
+          Landmark Opposite Super Bazar
+          <br />
+          IFSC Code HDFC0001220
+          <br />
+          Phone No. +912268461208
+          <br />
+          Hours Closed for the day 2nd and 4th Saturday - Holiday
+        </p>
+      </div>
+
+      <div class="col-md-4 invest">
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/indian-cities-landmarks/100/Chennai-1024.png"
+          class="contact-img3"
+        />
+        <h3 class="h3tag1C">Chennai</h3>
+        <p class="info2hard">
+          Anna Salai
+          <br />
+          Address 759, ITC Centre Anna Salai Chennai - 600002
+          <br />
+          Landmark Opposite TVS Bus Stop
+          <br />
+          IFSC Code HDFC0000004
+          <br />
+          Phone No. +912268461208
+          <br />
+          Hours Cash Deposit Machine Available 24 Hrs 2nd and 4th Saturday -
+          Holiday
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-----------Social media------------------------->
+  <section id="social-media">
+    <div class="container text-center">
+      <p>FIND US ON SOCIAL MEDIA</p>
+      <div class="social-icons">
+        <table style="width: 100%; align-items: center">
+          <tr class="col">
+            <th id="logotr">
+              <a href="https://www.facebook.com/HDFC.bank/" target="_blank"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+              /></a>
+            </th>
+            <th id="logotr">
+              <a href="https://www.instagram.com/hdfcbank/" target="_blank"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              /></a>
+            </th>
+            <th id="logotr">
+              <a
+                href="https://twitter.com/hdfcbank_cares?lang=en"
+                target="_blank"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg"
+              /></a>
+            </th>
+            <th id="logotr">
+              <a href="https://wa.me/70659 70659" target="_blank"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+              /></a>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-----------footer section------------>
+
+  <section id="footer">
+    <p id="footerpara" style="text-align: center">
+      <i> &copy; Sourabh Hidadugi | 2022</i>
+    </p>
+  </section>
+</body>

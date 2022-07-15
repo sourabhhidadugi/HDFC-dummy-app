@@ -1,0 +1,369 @@
+body{
+    scroll-behavior: smooth;
+}
+/*---------------Nav-Bar section----------------------------*/
+#nav-bar {
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #c24bd4, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+    padding-left: 5px;
+}
+
+.navbar-nav li {
+    padding: 0 15px;
+    font-size: larger;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+
+}
+
+.fa-bars-filter {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+
+/*-------------------home--------------------*/
+
+#home {
+    background-image: linear-gradient(to right, #c24bd4, #5f1782);
+    color: #fff;
+    padding-top: 10%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 100px;
+    color: darkblue;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+
+}
+
+.promo-question {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#home a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img-fluid {
+    width: 500px;
+    margin: 10px;
+    border: 10px;
+
+}
+
+.bottom-img {
+    width: 100%;
+
+}
+
+
+/* -----------------login component----------------*/
+
+#login {
+    background-color: rgb(255, 247, 247);
+}
+
+.logindiv {
+    background-color: rgb(255, 247, 247);
+}
+
+.tbody {
+    border-radius: 25%;
+    background-color: rgb(255, 247, 247);
+    border-radius: 5px;
+}
+
+.abouthead1::before {
+    content: '';
+    background-color: #7b1798;
+    width: 300px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.abouthead1::after {
+    content: '';
+    background-color: #7b1798;
+    width: 75px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    transform: translateY(-3px);
+}
+
+.abouthead1 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #5f1782;
+}
+
+
+
+
+
+/* -----------------about us component----------------*/
+
+#aboutservice {
+    background-color: rgb(255, 247, 247);
+    padding: 80px 0;
+}
+
+.abouthead::before {
+    content: '';
+    background-color: #7b1798;
+    width: 175px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.abouthead::after {
+    content: '';
+    background-color: #7b1798;
+    width: 75px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    transform: translateY(-3px);
+}
+
+.abouthead {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #5f1782;
+}
+
+.about-img1 {
+    width: 150px;
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+
+.about-img {
+    width: 150px;
+    margin-top: 2px;
+}
+
+.h3tag {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #5f1782;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.info {
+    text-align: justify;
+}
+
+.info1 {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20 px;
+}
+
+.hdfc {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #5f1782;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 8%;
+
+}
+
+.horizontal {
+    width: 1000 px;
+    height: 2px;
+    color: #5f1782;
+}
+
+.hdfc::before {
+    content: '';
+    background-color: #7b1798;
+    width: 175px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.hdfc::after {
+    content: '';
+    background-color: #7b1798;
+    width: 75px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    transform: translateY(7px);
+}
+.bank-img{
+    padding-top: 20%;
+}
+
+/*-----------------Investors-----------------------*/
+
+
+#investors {
+    background-color: rgb(255, 247, 247);
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.info2 {
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20 px;
+}
+.h3tag{
+    padding-left: 25px;
+}
+
+.info2hard {
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20 px;
+}
+.invest-img12{
+    padding-top: 8%;
+}
+.invest-img1{
+    width: 400px;
+}
+/*--------------contact-us-------------------*/
+
+
+#Contact-Us{
+    background-color: rgb(255, 247, 247);
+}
+.contact-img1{
+    width: 60%;
+    padding-left: 25%;
+}
+.contact-img2{
+    width: 60%;
+    padding-left: 25%;
+    padding-bottom: 7%;
+    
+}
+.contact-img3{
+    width: 70%;
+    padding-left: 25%;
+    padding-bottom: 0;
+    
+}
+.h3tag1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10%;
+    padding-left: 6%;
+    color: #5f1782;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.h3tag1M {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 6%;
+    padding-top: 12%;
+    color: #5f1782;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.h3tag1C {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 6%;
+    
+    color: #5f1782;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+/*------------Social media section-----------------------*/
+#social-media{
+    background-color: rgb(255, 247, 247);
+    padding: 100px 0;
+    padding-bottom: 20px;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+.social-icons{
+    padding-left: 10%;
+}
+
+/*----------------Footer section---------------------*/
+
+#footer{
+    background-image: linear-gradient(to right, #c24bd4, #5f1782);
+    color: #fff;
+}

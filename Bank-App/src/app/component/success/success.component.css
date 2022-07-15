@@ -1,0 +1,101 @@
+#social-media{
+    background-color: rgb(255, 247, 247);
+    padding: 50px 0;
+    padding-bottom: 20px;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.social-icons{
+    width: 60px;
+    transition: 0.5s;
+    scroll-padding-top: 5px;
+    
+}
+.social-icons a:hover{
+    transform: translateY(-10px);
+}
+.social-icons{
+    padding-left: 28%;
+    padding-top: 10%;
+}
+.hdfchead{
+    font-size: 35px;
+    font-weight: bolder;
+    color: blueviolet;
+    padding-top: 5%;
+}
+.col{
+    padding-top: 10%;
+    
+    margin: 10%;
+    table-layout: fixed;
+    color: blueviolet;
+    padding-left: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 5px;
+    
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.btn-light{
+    color: blueviolet;
+    text-align: center;
+  
+}
+.btn-light-log{
+    color: red;
+    text-align: center;
+}
+
+
+
+
+/*previous edit*/
+
+/*
+.nav-items{
+    color: #fff;
+}
+.hdfchead{
+    font-size: 20px;
+}
+.container-fluid{
+    background-color: rgb(255, 247, 247);
+}
+.navbar-nav{
+background-color: rgb(255, 247, 247);
+}
+.hr-succ{
+    height: 5px;
+}
+
+.social-icons {
+    width: 60px;
+    transition: 0.5s;
+    padding-left: 10%;
+}
+.social-icons a:hover text{
+    transform: translateY(-10px);
+}
+.social-icons{
+    padding-left: 10%;
+}
+.hdfchead{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: blueviolet;
+}
+.social-icons{
+    text-align: center;
+    padding-left: 10%;
+}
+.col-md-6{
+    padding-left: 25%;
+}
+*/

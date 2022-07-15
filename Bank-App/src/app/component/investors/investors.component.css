@@ -1,0 +1,26 @@
+.investor-head{
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    padding-left: 70px;
+    
+}
+.investor-body{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+    color: blueviolet;
+    padding-left: 15%;
+    padding-right: 25%;
+
+}
+.company-logo{
+    height: 100px;
+    padding-left: 90px;
+}
+.company-logo1{
+    height: 100px;
+    padding-left: 0px;
+}
